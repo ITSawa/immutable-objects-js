@@ -1,4 +1,4 @@
-# Immutable Objects Library
+# Immutable Objects Js Library
 
 A library for working with immutable objects and arrays in JavaScript. This library provides utility classes to create fully immutable objects and arrays, as well as objects and arrays that enforce a single type for all values or elements. Additionally, it includes a function to compare two objects for deep equality.
 
