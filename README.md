@@ -24,7 +24,7 @@ Creates an immutable object. Once created, the object's properties cannot be mod
 
 javascript
 
-const { ConstObject } = require('immutable-objects');
+const { ConstObject } = require('immutable-objects-js');
 
 const obj = new ConstObject({ name: 'John', age: 30 });
 
@@ -35,7 +35,7 @@ Creates an immutable array. The array's elements cannot be modified, deleted, or
 
 javascript
 
-const { ConstArray } = require('immutable-objects');
+const { ConstArray } = require('immutable-objects-js');
 
 const arr = new ConstArray([1, 2, 3]);
 
@@ -46,7 +46,7 @@ Creates an object where all properties must be of a specified type. Attempts to 
 
 javascript
 
-const { OneTypeObject } = require('immutable-objects');
+const { OneTypeObject } = require('immutable-objects-js');
 
 const obj = new OneTypeObject('string');
 obj.name = 'John';  // Works fine
@@ -58,7 +58,7 @@ Creates an array where all elements must be of a specified type. Attempts to set
 
 javascript
 
-const { OneTypeArray } = require('immutable-objects');
+const { OneTypeArray } = require('immutable-objects-js');
 
 const arr = new OneTypeArray('number');
 arr.push(1);  // Works fine
@@ -70,7 +70,7 @@ Compares two objects for deep equality.
 
 javascript
 
-const { deepEqual } = require('immutable-objects');
+const { deepEqual } = require('immutable-objects-js');
 
 const obj1 = { name: 'John', age: 30 };
 const obj2 = { name: 'John', age: 30 };
